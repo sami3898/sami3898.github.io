@@ -10,7 +10,7 @@
   --primary-color: #fca311;
   --secondary-color: #ffffff;
   --primary-shadow: #e5e5e5;
-  --secondary-shadow: #a17a69;
+  --secondary-shadow: #000;
   --bottom-margin: 0.5rem;
   --bottom-margin-2: 1rem;
   --line-height: 1.7rem;
@@ -100,8 +100,8 @@ nav {
   }
 
   .hero img {
-    height: 32rem;
-    width: 36rem;
+    height: 37.5rem;
+    width: 37.5rem;
   }
   
   .bio {
@@ -135,4 +135,31 @@ nav {
     line-height: var(--line-height);
     padding: 0.4rem;
     color: var(--primary-shadow);
+  }
+  .skills {
+    max-width: 68.75rem;
+    margin: auto;
+    text-align: center;
+    margin-top: 2.5rem;
+  }
+  
+  .skill-header {
+    margin-bottom: 1rem;
+  }
+  
+  .skills-wrapper img {
+    padding: 1.25rem;
+  }
+  
+  .icon {
+    width: 11.875rem;
+    height: 11.25rem;
+  }
+
+  .icon-card {
+    background-color: #fff;
+    border-radius: 11px;
+    box-shadow: 0 3px 10px var(--bg-color);
+    padding: 20px;
+    margin: 10px;
   }
